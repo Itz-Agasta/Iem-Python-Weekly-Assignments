@@ -1,6 +1,7 @@
 # IEM Python Weekly Assignments
 
-Welcome to the IEM Python Weekly Assignments repository! This repository contains solutions to weekly Python assignments for IEM college students. Our goal is to help future juniors understand and solve their assignments effectively with the best solution possible.
+Welcome to the IEM Python Weekly Assignments repository! This repository contains solutions to weekly Python assignments for IEM (Institute of Engineering and Management) college students. Our goal is to help future juniors understand and solve their assignments effectively with the best solution possible.
+
 
 ## Repository Structure
 
@@ -14,7 +15,8 @@ The assignments are organized in main folders by weeks, with each week containin
 2. **Open the week subfolder**: Each week's assignments are in separate subfolders.
 3. **Open the assignment file**: Each assignment is provided as a Python script file (.py).
 4. **Review the code**: Go through the code to understand the solution. Comments are provided for better understanding.
-5. **Run the code**: You can run the code on your local machine to see how it works. 
+5. **Run the code**: You can run the code on your local machine to see how it works.
+   
 
 ## Contributing
 
