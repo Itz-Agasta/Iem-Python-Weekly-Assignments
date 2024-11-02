@@ -48,4 +48,4 @@ num = input("Enter a number: ")
 ans = int(num[-1]) + int(num[-2])
 
 print(ans)
-
+print("hello py")
