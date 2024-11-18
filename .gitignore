@@ -1,0 +1,28 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Discord IDE files
+.discord/
+.discord-workspace/
+
+# Ignore other common files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
