@@ -18,7 +18,7 @@ print("Simple interest is: ", simple_interest)
 # and calculate compound interest.
 principle = float(input("Enter principle amount: "))
 rate = float(input("Enter rate of interest: "))
-n = int(input("Enter Compound intrest rate.(daily, monthly, quarterly, half-year, yearly) "))
+n = int(input("Enter Compound interest rate.(daily, monthly, quarterly, half-year, yearly) "))
 time = float(input("Enter time: "))
 
 compound_interest = principle * (pow((1 + (rate / 100)/n), n * time))
