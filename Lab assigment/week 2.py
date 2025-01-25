@@ -14,7 +14,23 @@ else:
 # Plus Rs. 0.60 per call for the next 50 calls.
 # Plus Rs. 0.50 per call for the next 50 calls.
 # Plus Rs. 0.40 per call for any call beyond 200 calls.
+# Get number of calls from user
+calls = int(input("Enter number of calls: "))
+bill = 200  # Base charge
 
+if calls <= 100:
+    pass  # Only base charge applies
+elif calls <= 150:
+    bill += (calls - 100) * 0.60  # Charge for calls from 101-150
+elif calls <= 200:
+    bill += 50 * 0.60  # First 50 calls after 100
+    bill += (calls - 150) * 0.50  # Remaining calls up to 200
+else:
+    bill += 50 * 0.60  # First 50 calls after 100
+    bill += 50 * 0.50  # Next 50 calls
+    bill += (calls - 200) * 0.40  # Remaining calls beyond 200
+
+print(f"Total bill: Rs. {bill:.2f}")
 
 
 #3. Write a program in Python to calculate the factorial of a number.
@@ -102,9 +118,11 @@ for digit in str(number):
     sum += int(digit) ** num_digits
 
 if number == sum:
-    print(f"{number} is an Armstrong number")
+    print(f"{number} is an Armstrong number")    
 else:
     print(f"{number} is not an Armstrong number")
+
+#Note: https://www.outsystems.com/forums/discussion/87853/armstrong-numbers/#Post417562
 
 
 #8. Write a program in Python to check if a number is Krishnamurthy number.
